@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import RepoA
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        doSomething()
     }
 
+    func doSomething() {
+        let a = A()
+        a.callA()
+        print("This is a dev fix")
+    }
 
 }
 
