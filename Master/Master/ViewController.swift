@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     func doSomething() {
         let a = A()
         a.callA()
-        print("This is a dev fix")
+        print("This is a dev fix - Host")
     }
 
 }
